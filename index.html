@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda E-Commerce de Indumentaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="images/Logo/mi-LOGO2.png" alt="Logo de la Tienda" class="logo-img">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="cart-container">
+            <a href="#" class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>   
+    
+    <section id="home" class="hero">
+        <h1>Bienvenido a Nuestra Tienda</h1>
+        <p>Descubre nuestra selección exclusiva de productos diseñados para ti. Calidad y estilo en cada detalle.</p>
+    </section>
+
+    <section id="productos" class="products-container">
+        <h2>Nuestros Productos</h2>
+        
+        <!--  Productos -->
+        <article class="card">
+            <div class="card-image">
+                <img src="images/product-1.jpg" alt="Producto 1">
+            </div>
+            <div class="card-info">
+                <h3>Zapatilla Deportiva Azul Nike</h3>
+                <p class="price">$80.000</p>
+                <button class="btn-add">Agregar al Carrito</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-image">
+                <img src="images/product-2.jpg" alt="Producto 2">
+            </div>
+            <div class="card-info">
+                <h3>Zapatilla Azul Fuerte Nike</h3>
+                <p class="price">$75.000</p>
+                <button class="btn-add">Agregar al Carrito</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-image">
+                <img src="images/product-3.jpg" alt="Producto 3">
+            </div>
+            <div class="card-info">
+                <h3>Zapatilla Urbana Roja</h3>
+                <p class="price">$60.000</p>
+                <button class="btn-add">Agregar al Carrito</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-image">
+                <img src="images/product-4.jpg" alt="Producto 4">
+            </div>
+            <div class="card-info">
+                <h3>Zapatilla Deportiva Para Fitness</h3>
+                <p class="price">$65.000</p>
+                <button class="btn-add">Agregar al Carrito</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-image">
+                <img src="images/product-5.jpg" alt="Producto 5">
+            </div>
+            <div class="card-info">
+                <h3>Zapatilla Deportiva Verde</h3>
+                <p class="price">$45.000</p>
+                <button class="btn-add">Agregar al Carrito</button>
+            </div>
+        </article>
+    </section>
+
+    <footer id="contacto">
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a> <!-- X / Twitter -->
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2026 Castro Clothing.</p>
+    </footer>
+</body>
+</html>

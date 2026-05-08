@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #e2e6ea 0%, #cbd3dc 100%); /* Fondo más oscuro */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,11 +84,17 @@ nav ul li a:hover {
 }
 
 .contact-container {
-    background: #fff;
+    background: #ffffff;
     padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px -12px rgba(0,0,0,0.3);
 }
 
 .contact-container h2 {

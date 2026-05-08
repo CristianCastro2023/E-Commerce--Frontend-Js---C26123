@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, #e2e6ea 0%, #cbd3dc 100%); /* Fondo más oscuro */
     color: #2d3436;
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 5rem 1rem;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: transparent;
     margin-bottom: 2rem;
 }
 

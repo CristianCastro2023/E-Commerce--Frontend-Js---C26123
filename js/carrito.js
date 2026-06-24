@@ -63,7 +63,7 @@ const renderizarCarrito = () => {
     contenedor.appendChild(tarjeta);
   });
 
-  // Botón vaciar carrito - ÚNICO BOTÓN
+  // Botón vaciar carrito - 
   const btnVaciar = document.createElement("button");
   btnVaciar.classList.add("btn-vaciar-carrito");
   btnVaciar.innerHTML = '<i class="fa-solid fa-trash-can"></i> Vaciar carrito';
@@ -78,7 +78,7 @@ const renderizarCarrito = () => {
   // Resumen
   const total = carrito.reduce((sum, producto) => sum + producto.precio, 0);
   resumen.innerHTML = `
-    <h3>📊 Resumen de compra</h3>
+    <h3> Resumen de compra</h3>
     <p class="total-productos">Total de productos: <strong>${carrito.length}</strong></p>
     <hr>
     <p class="total-pagar">Total: $${total.toLocaleString()}</p>

@@ -188,7 +188,7 @@ nav ul li a:hover {
 }
 
 .price {
-    font-weight: bold;
+    font-weight: 800;
     color: #c6a43f;
     font-size: 1rem;
     text-align: center;
@@ -332,7 +332,7 @@ footer p {
 }
 
 .cart-card-info .producto-precio {
-    font-weight: 700;
+    font-weight: 800;
     color: #c6a43f;
     font-size: 1.3rem;
     margin: 0;
@@ -465,7 +465,8 @@ footer p {
     }
 
     .price {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        font-weight: 800;
     }
 
     .btn {
@@ -492,7 +493,8 @@ footer p {
     }
 
     .price {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        font-weight: 800;
     }
 
     .btn {
@@ -534,7 +536,7 @@ footer p {
     }
     
     .cart-card-info .producto-precio {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         font-weight: 800;
         white-space: normal;
     }
@@ -637,7 +639,8 @@ footer p {
     }
     
     .price {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        font-weight: 800;
         margin: 0.15rem 0;
     }
     
@@ -697,7 +700,7 @@ footer p {
     }
     
     .cart-card-info .producto-precio {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         font-weight: 800;
         white-space: normal;
     }
@@ -819,7 +822,8 @@ footer p {
     }
     
     .price {
-        font-size: 0.85rem;
+        font-size: 1.1rem;
+        font-weight: 800;
         margin: 0.1rem 0;
     }
     
@@ -889,7 +893,7 @@ footer p {
     }
     
     .cart-card-info .producto-precio {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 800;
         white-space: normal;
         color: #c6a43f;
@@ -1028,7 +1032,8 @@ footer p {
     }
     
     .price {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        font-weight: 800;
     }
     
     .btn {
@@ -1098,7 +1103,7 @@ footer p {
     }
     
     .cart-card-info .producto-precio {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 800;
         white-space: normal;
         color: #c6a43f;
@@ -1196,7 +1201,7 @@ footer p {
     
     .cart-card-info .producto-precio {
         white-space: normal;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         font-weight: 800;
     }
     

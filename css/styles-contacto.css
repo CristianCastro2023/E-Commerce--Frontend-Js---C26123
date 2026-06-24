@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #e2e6ea 0%, #cbd3dc 100%); /* Fondo más oscuro */
+    background: linear-gradient(135deg, #e2e6ea 0%, #cbd3dc 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,6 @@ header {
     height: 50px;
     width: auto;
     object-fit: contain;
-    /*  filter: brightness(0) invert(1);*/
 }
 
 nav {
@@ -73,6 +72,36 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #c6a43f;
+}
+
+/* 👉 ESTILOS DEL CARRITO EN EL HEADER */
+.cart-container {
+    position: relative;
+}
+
+.cart-icon {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.cart-icon:hover {
+    color: #c6a43f;
+}
+
+#cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #c6a43f;
+    color: #1a2a3a;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 50%;
+    display: none;
+    font-weight: bold;
 }
 
 .contact-wrapper {

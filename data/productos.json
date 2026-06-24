@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nombre": "Zapatilla Deportiva Nike Azul Hombre",
+    "precio": 80000,
+    "img": "images/product-1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Zapatilla Deportiva Azul Nike Hombre",
+    "precio": 75000,
+    "img": "images/product-2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Zapatilla Deportiva Urbana Roja",
+    "precio": 60000,
+    "img": "images/product-3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Zapatilla Deportiva Fitness Mujer",
+    "precio": 65000,
+    "img": "images/product-4.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Zapatilla Deportiva Verde Hombre",
+    "precio": 45000,
+    "img": "images/product-5.jpg"
+  }
+]
